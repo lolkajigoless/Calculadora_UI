@@ -42,7 +42,8 @@ public class CalcUI extends JFrame {
     area = new JTextArea("",15,15);
     // colocando uma barra de rolagem no JTextArea
     rolagem = new JScrollPane(area);
-    
+
+    // Uso de caminho relativo
     ImageIcon icone = new ImageIcon(getClass().getResource("/calcui/imagem.jpg"));
     setIconImage(icone.getImage());
     
